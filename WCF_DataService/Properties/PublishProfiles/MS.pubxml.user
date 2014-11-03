@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>http://localhost:8020/WCFApp</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/Application.mdf">
+      <publishTime>10/03/2014 22:38:37</publishTime>
+    </File>
+    <File Include="App_Data/Application_log.ldf">
+      <publishTime>10/03/2014 22:38:37</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/01/2014 12:59:19</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/01/2014 12:59:19</publishTime>
+    </File>
+    <File Include="bin/WCF_DataService.dll">
+      <publishTime>10/03/2014 22:43:15</publishTime>
+    </File>
+    <File Include="bin/WCF_DataService.pdb">
+      <publishTime>10/03/2014 22:43:14</publishTime>
+    </File>
+    <File Include="Models/ApplicationEDMX.edmx.diagram">
+      <publishTime>10/01/2014 12:59:27</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>10/01/2014 12:59:25</publishTime>
+    </File>
+    <File Include="Service.svc">
+      <publishTime>10/02/2014 23:11:29</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/03/2014 22:43:15</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,48 @@
+﻿<html ng-app="RESTClientModule">
+<style type="text/css">
+    table, td {
+        border: double;
+    }
+    thead {
+      background-color:darkgray;
+      font-size:20px;
+      font-family:Courier New, Courier, monospace;
+      font-weight:900;
+    }
+</style>
+
+<h2>Consuming WCF REST Service in Angular JS</h2>
+<body>
+    <table ng-controller="RESTClientController">
+        <tr>
+          
+            <td>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>EmpNo</td>
+                            <td>EmpName</td>
+                            <td>Salary</td>
+                            <td>DeptName</td>
+                            <td>Designation</td>
+                        </tr>
+                    </thead>
+                    <tbody ng-repeat="Emp in Employees">
+                        <tr>
+                            <td> <span>{{Emp.EmpNo}}</span></td>
+                            <td> <span>{{Emp.EmpName}}</span></td>
+                            <td> <span>{{Emp.Salary}}</span></td>
+                            <td> <span>{{Emp.DeptName}}</span></td>
+                            <td> <span>{{Emp.Designation}}</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+<script src="~/Scripts/angular.js"></script>
+<script src="~/Scripts/MyScripts/Modules.js"></script>
+<script src="~/Scripts/MyScripts/Services.js"></script>
+<script src="~/Scripts/MyScripts/Controllers.js"></script>
